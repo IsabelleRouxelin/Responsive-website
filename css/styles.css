@@ -1,6 +1,41 @@
-/* add root selector here*/
+:root {
+    --primary-colour: jet#000000;
+    --secondary-colour: #ff3e96;
+    --accent-colour: #c1f861;
+    --metallic: #D4AF37;
+    --neutral-colour: #e0e0e0;
+    --font-weight: bold;
+}
 
 * {
- padding: 0px;
- margin: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+    line-height: 1.6;
+    background-color: var(--primary-colour);
+}
+
+header {
+    color: ;
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: ;
+    padding: ;
+}
+
+.navbar a:hover {
+
+}
+
+.box {
+    display: flex
+    justify-content: center;
+    background-color: ;
+    color: var();
+    text-align: center;
+
 }
