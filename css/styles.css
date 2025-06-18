@@ -20,22 +20,59 @@ header {
 
 }
 
+.banner {
+    display: inline-flex
+    color: ;
+}
+
 .navbar {
     display: flex;
     justify-content: center;
-    background-color: ;
-    padding: ;
+    background-color: var(--primary-colour) ;
+    padding: 20px;
+    margin: ;
 }
 
 .navbar a:hover {
-
+    color: var(--secondary-colour)
 }
 
+.content {
+    color: ;
+}
+
+.products {
+    display: flex;
+}
+
+
+.product {
+    display: flex;
+    
+   /*how to make images shrink down*/
+}
 .box {
     display: flex
-    justify-content: center;
     background-color: ;
     color: var();
     text-align: center;
 
+}
+
+.about {
+
+}
+
+.team-section {
+
+}
+
+.team-list {
+
+}
+
+.highlight-box
+
+footer {
+    display: flex;
 }
