@@ -2,77 +2,197 @@
     --primary-colour: jet#000000;
     --secondary-colour: #ff3e96;
     --accent-colour: #c1f861;
-    --metallic: #D4AF37;
-    --neutral-colour: #e0e0e0;
+    --neutral-colour:#F5F0E6;
     --font-weight: bold;
 }
 
 * {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    padding: 0;
-    margin: 0;
+    padding: 10;
+    margin: 10;
     line-height: 1.6;
-    background-color: var(--primary-colour);
+    background-color: var(--neutral-colour);
+    color: var(--primary-colour);
 }
 
 header {
-    color: ;
-
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .banner {
-    display: inline-flex
-    color: ;
+    display: flex;
+    font-size: 2em;
+    justify-content: center;
+    text-transform: uppercase;
 }
+
 
 .navbar {
     display: flex;
     justify-content: center;
-    background-color: var(--primary-colour) ;
     padding: 20px;
-    margin: ;
+    margin: 10px;
+}
+.navbar a{
+   gap: 30px;
+   text-transform: uppercase;
+   font-weight: var(--font-weight)
 }
 
 .navbar a:hover {
     color: var(--secondary-colour)
 }
 
-.content {
-    color: ;
+header h1{
+    text-transform: uppercase;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.opening-hours{
+    justify-content: space-around;
+}
+
+.opening-hours:hover {
+    color:var(--secondary-colour)
+}
+
+.contact-form-container {
+    border: 2px solid var(--secondary-colour);
+    justify-content: center;
+    width: 200px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.contact {
+    text-align: right;
+}
+
+button {
+    background-color: var(--neutral-colour);
+    padding: 2%;
+}
+
+button:hover{
+    background-color: var(--accent-colour);
+    color: var(--secondary-colour);
 }
 
 .products {
     display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: center;
+    text-transform: uppercase;
+    font-weight: var(--font-weight);
 }
 
-
-.product {
-    display: flex;
-    
-   /*how to make images shrink down*/
+.product img {
+    align-items: center;
+    width: 100%;
+    height: 600px;
+   object-fit: cover;
 }
+
 .box {
-    display: flex
-    background-color: ;
-    color: var();
     text-align: center;
-
+    padding: 20px;
+    text-transform: uppercase;
+    font-weight: var(--font-weight);
 }
 
-.about {
+.box:hover:{
+    background-color: var(--accent-colour);
+}
 
+.box-one {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+    gap: 20px;
+}
+
+.box-one img{
+    align-items: center;
+    width: 100%;
+    height: 250px;
+   object-fit: cover;
+}
+
+.container {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+}
+
+.container p {
+    display: flex;
+    margin: 20px;
+    padding: 20px;
+}
+
+.container h2 {
+    text-transform: uppercase;
+}
+
+.container h3{
+    font-weight: var(--font-weight);
+}
+
+.container ul{
+    list-style-position: inside;
+    margin: 0;
+    padding: 0;
+}
+
+.container ul li{
+    margin: 0;
+    padding: 0;
 }
 
 .team-section {
-
+    padding: 20px;
+    margin: 20px;
 }
 
-.team-list {
-
+.team-list img{
+    width: 400px;
+    height: 75%;
 }
 
-.highlight-box
+
+a:hover {
+    color: var(--accent-colour);
+}
+
+.refund ul{
+  list-style-position: inside;
+  justify-content: center;
+  margin: 20px;
+  padding:20px;
+ 
+}
+
+.button:hover{
+    font-color: var(--accent-colour);
+}
 
 footer {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px 0;
+    margin-top: 20px;
 }
+
